@@ -5,7 +5,7 @@
 		<description>The Metaphysician class from the Ravenloft Archetypes II: The Core Domains Adventurer's Guide.</description>
 		<author url="https://www.dmsguild.com/product/186278/Ravenloft-Archetypes-II-Core-Domains-Adventurers-Guide">Jeremy Forbing</author>
 		<update version="0.3.1">
-			<file name="class-Metaphysican.xml" />
+			<file name="class-Metaphysican.xml" url="https://raw.githubusercontent.com/SoyeBoi/Metaphysician-Class/main/class-Metaphysician.xml" />
 		</update>
 	</info>
 
