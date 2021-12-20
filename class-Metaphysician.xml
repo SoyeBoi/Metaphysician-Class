@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Metaphysician</name>
+		<description>The Metaphysician class from the Ravenloft Archetypes II: The Core Domains Adventurer's Guide.</description>
+		<author url="https://www.dmsguild.com/product/186278/Ravenloft-Archetypes-II-Core-Domains-Adventurers-Guide">Jeremy Forbing</author>
+		<update version="0.3.1">
+			<file name="class-Metaphysican.xml" />
+		</update>
+	</info>
+
+	<element name="Metaphysician" type="Class" source="Ravenloft Archetypes II: The Core Domains Adventurer's Guide" id="ID_JB_RA2_CLASS_METAPHYSICIAN">
+		<description>
+			<p>Stepping over the unconscious bodies of the defeated cultists, the human constable puts away her hand crossbow and buries both hands in the pockets of her coat. As her unblinking stare mesmerizes the lone zealot still standing, her fingers find a carved shard of crystal. The mad cult leader swears to himself that he'll never reveal his master's hidden lair, and the constable manages not to smile as she sees its image in the fanatic's mind.</p>
+			<p class="indent">Deep in the buried library of a forgotten order of mystics, a bespectacled tiefling looks up wide-eyed from the dusty scroll in his gloved hands, struck by a sudden epiphany. As the inhuman cannibals entombed in these tunnels for generations break down the barricaded door, he uses his new insight to cloud their minds. They tear the chamber apart seeking him, but he calmly walks behind them and exits invisibly through the demolished doorway, bearing a backpack full of ancient secrets.</p>
+			<p class="indent">Charging headlong into the trio of undead, the dusk elf runs up the wall of the alley to avoid their grasping arms, conjuring a blade made of her own thoughts to behead the tallest one before she somersaults to the pavement behind them. She puts down the other two before they can even turn around to attack her, then takes to the rooftops to rush back to her laboratory. She stows the severed head in her pack, confident she can use it to cure the zombie plague infecting the city.</p>
+			<p class="indent">Metaphysicians are sages, scholars, and scientists devoted to the study of mystical powers. These experts are neither true users of psionic power nor traditional arcane spellcasters, but driven academic investigators whose studies unleash the psychic potential of their own minds as a source of spellcasting power. These experts on the occult view all supernatural phenomena—from psionic powers to arcane spells to the nature of the undead—not as esoteric mysteries or mystical philosophies or mysticism, but simply fields of science that have yet to be fully explored.</p>
+			<h4>FEARLESS LOGIC</h4>
+			<p>In all dealings with the supernatural, the metaphysician remains cool and calm. They try to examine every encounter with the dispassionate eye of the scholar. They believe that the application of logic, reason, and learning to the macabre and the unusual will eventually result in a complete understanding of that which seems to defy explanation. This approach has allowed them to unlock the inner mysteries of the self and use psychic powers in the form of magic spells.</p>
+			<p class="indent">Unlike wizards and warlocks, magic and power are not the point of their research. The quest for knowledge is what drives them. The energies they seek to understand don’t emanate from distant entities or unknowable dimensions, but from their own minds and bodies, and the hidden potential in all living things. They're curious about everything, of course, from the nature of deities to fiends of the Abyss, but they do not give themselves up to forces they do not understand.</p>
+			<p class="indent">By drawing power from their own minds—trained and disciplined minds strengthened by years of study and rigor—they believe they can study mystical phenomena without getting lost in the temptations of power or the fanaticism of blind faith. This is not to say that metaphysicians are never religious—many begin by studying as students in theology or novices in monasteries—but they do not rely on anything they cannot explain or understand for themselves.</p>
+			<p class="indent">While they endeavor to keep up-to-date with the latest research and findings by other leading scholars, metaphysicians also spend much of their time looking for records and relics from times long past, seeking clues to historical mysteries as well as searching for ancient texts and rituals. In their studies, they also search for ways to cast more spells or knowledge about how to cast spells more effectively.</p>
+			<p class="indent">To the disciplined mind, no mystery is so dark, no creature so fantastic that it cannot be mastered through application of the scientific method. Observe, hypothesize and test; that is the motto of the metaphysician.</p>
+			<h4>THE TRUTH IS OUT THERE</h4>
+			<p>These scholars devote their entire lives to the pursuit of knowledge and education. As a rule, such characters almost always have some affiliation with a college, museum, or similar institution devoted to research and learning.</p>
+			<p class="indent">No matter how bizarre the situations in which they find themselves, metaphysicians do not lose sight of the many academic disciplines their investigations might advance. They drive themselves to discover new knowledge using precise methodology. Their insistence on logic and consistency is off-putting to some, and some metaphysicians may also be seen as introverted and cold. Yet they pursue their work with passion and two-fisted determination.</p>
+			<h4>CREATING A METAPHYSICIAN </h4>
+			<p>As a metaphysician, you had the skills and education to be a well-respected sage or leading researcher in any field, but you chose a far less understood path. What did you see, learn, or experience that led you to analyze the nature of mystical powers so deeply that you unlocked your own mental potential?</p>
+			<p class="indent">Metaphysicians tend to be a mix of the insecurity of an outsider and the arrogance of a visionary. Their discoveries make sages who do not recognize the supernatural as a valid area for research seem like ignorant fools. Seeing the truths of arcane phenomena and psychic powers firsthand, and mastering them for your own use, you know that your techniques can be taught to others for the betterment of all. Do you seek to share what you've learned? How do you deal with blind ignorance or superstition with which others approach your discoveries?</p>
+			<p class="indent">Bookish by nature, at one point or another most metaphysicians preferred the comforts of the lab and library to the rigors of field research. Do you still long for such a life? Or did that end when you began your adventuring career? One day, do you intend to return to a less dangerous lifestyle, where you can focus on cataloging, testing, and analyzing your findings, or teaching your unique abilities to others? What keeps you out adventuring? Is it a dire necessity, a yearning for excitement, a groundbreaking theory that can only be proven by unorthodox methods, the camaraderie of their companions, a need for wealth to finance your research, or some other reason?</p>
+			<p class="indent">Metaphysicians tend to be lawful, given the discipline their studies require, and they are seldom of evil alignment since there are easier routes to selfish power and personal gain. For you, knowledge is more often an end in itself than a means to an end. Some unscrupulous researchers will permit no ethical concerns to restrain their quest for knowledge, but even they have a higher sense of purpose. How does your alignment affect your quest to uncover hidden truths? What is the personal motivation that drives you? How do you want your discoveries to change the world?</p>
+			<h5>QUICK BUILD</h5>
+			<p>You can make a metaphysician quickly by following these suggestions. First, Intelligence should be your highest ability score, followed by either Constitution or Wisdom. Second, choose the sage background. Third, choose the <i>thaumaturgy</i>, and <i>thought blast</i> cantrips,  and the <i>charm person</i> and <i>ego lash</i> spells.</p>
+			<h3>CLASS FEATURES</h3>
+			<p>As a metaphysician, you gain the following class features:</p>
+			<h5>HIT POINTS</h5>
+			<ul class="unstyled">
+				<li><strong>Hit Dice:</strong> 1d6 per metaphysician level</li>
+				<li><strong>Hit Points at 1st Level:</strong> 6 + your Constitution modifier</li>
+				<li><strong>Hit Points at Higher Levels:</strong> 1d6 (or 4) + your Constitution modifier per metaphysician level after 1st</li>
+			</ul>
+			<h5>PROFICIENCIES</h5>
+			<ul class="unstyled mb">
+				<li><strong>Armor:</strong> Light armor, shields</li>
+				<li><strong>Weapons:</strong> Simple weapons, hand crossbows</li>
+				<li><strong>Tools:</strong> Alchemist's supplies and any one other set of artisan's tools of your choice</li>
+			</ul>
+			<ul class="unstyled">
+				<li><strong>Saving Throws:</strong> Intelligence, Wisdom</li>
+				<li><strong>Skills:</strong> Choose three skills from Arcana, History, Insight, Investigation, Medicine, Nature, Perception, Religion, and Survival.</li>
+			</ul>
+			<h5>EQUIPMENT</h5>
+			<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+			<ul>
+				<li>(a) a quarterstaff or (b) a mace or (c) a handaxe</li>
+				<li>(a) a hand crossbow and 20 bolts or (b) 5 javelins</li>
+				<li>(a) a scholar's pack or (b) an explorer's pack or (c) a monster hunter's pack (from Curse of Strahd)</li>
+				<li>Leather armor</li>
+			</ul>
+			<h5 class="caption">THE METAPHYSICIAN </h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-5">Level</td><td class="left">Features</td><td class="col-10">Cantrips Known</td><td class="col-10">Spells Known</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td><td>6th</td><td>7th</td><td>8th</td><td>9th</td></tr>
+				</thead>
+				<tr><td> 1st</td><td class="left">Spellcasting, Psychic Armor, Supernatural Scholar</td><td>4</td><td>2</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 2nd</td><td class="left">Metaphysical Archetype</td><td>4</td><td>2</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 3rd</td><td class="left">Learned Expertise, Psychic Senses</td><td>4</td><td>3</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>5</td><td>3</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 5th</td><td class="left">—</td><td>5</td><td>4</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 6th</td><td class="left">Metaphysical Archetype feature</td><td>5</td><td>4</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 7th</td><td class="left">Memory Palace</td><td>5</td><td>4</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 8th</td><td class="left">Ability Score Improvement</td><td>5</td><td>5</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 9th</td><td class="left">Psychic Resonance</td><td>5</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>10th</td><td class="left">Intellect Barrier, Recovery Trance</td><td>6</td><td>6</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>11th</td><td class="left">—</td><td>6</td><td>6</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>12th</td><td class="left">Ability Score Improvement</td><td>6</td><td>7</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>13th</td><td class="left">Memory Fortress</td><td>6</td><td>7</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+				<tr><td>14th</td><td class="left">Metaphysical Archetype feature</td><td>6</td><td>7</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+				<tr><td>15th</td><td class="left">Greater Supernatural Scholar</td><td>6</td><td>8</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+				<tr><td>16th</td><td class="left">Ability Score Improvement</td><td>6</td><td>8</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+				<tr><td>17th</td><td class="left">—</td><td>6</td><td>9</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td>18th</td><td class="left">Metaphysical Archetype feature</td><td>6</td><td>9</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td>19th</td><td class="left">Ability Score Improvement</td><td>6</td><td>10</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td>20th</td><td class="left">Living Library</td><td>6</td><td>10</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
+			</table>
+			<div element="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_SPELLCASTING_METAPHYSICIAN" />
+			<div element="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_PSYCHIC_ARMOR" />
+			<div element="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_SUPERNATURAL_SCHOLAR" />
+			<div element="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_METAPHYSICAL_ARCHETYPE" />
+			<div element="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_LEARNED_EXPERTISE" />
+			<div element="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_PSYCHIC_SENSES" />
+			<div element="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_ABILITY_SCORE_IMPROVEMENT_METAPHYSICIAN" />
+			<div element="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_MEMORY_PALACE" />
+			<div element="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_PSYCHIC_RESONANCE" />
+			<div element="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_INTELLECT_BARRIER" />
+			<div element="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_RECOVERY_TRANCE"/>
+			<div element="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_MEMORY_FORTRESS" />
+			<div element="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_GREATER_SUPERNATURAL_SCHOLAR" />
+			<div element="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_LIVING_LIBARY" />
+		</description>
+		<sheet display="false">
+			<description>A scholar who draws upon their knowledge and psychic abilities.</description>
+		</sheet>
+		<setters>
+			<set name="short">A scholar who draws upon their knowledge and psychic abilities.</set>
+			<set name="hd">d6</set>
+		</setters>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_JB_RA2_MULTICLASS_METAPHYSICIAN"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND" requirements="!ID_JB_RA2_MULTICLASS_METAPHYSICIAN"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_JB_RA2_MULTICLASS_METAPHYSICIAN"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" requirements="!ID_JB_RA2_MULTICLASS_METAPHYSICIAN"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_JB_RA2_MULTICLASS_METAPHYSICIAN"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_JB_RA2_MULTICLASS_METAPHYSICIAN"/>
+			<select type="Proficiency" name="Skill Proficiency (Metaphysician)" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_MEDICINE|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_RELIGION|ID_PROFICIENCY_SKILL_SURVIVAL" number="3" requirements="!ID_JB_RA2_MULTICLASS_METAPHYSICIAN"/>
+			<grant type="Class Feature" id="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_SPELLCASTING_METAPHYSICIAN" level="1"/>
+			<grant type="Class Feature" id="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_PSYCHIC_ARMOR" level="1"/>
+			<grant type="Class Feature" id="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_SUPERNATURAL_SCHOLAR" level="1"/>
+			<grant type="Class Feature" id="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_METAPHYSICAL_ARCHETYPE" level="2"/>
+			<grant type="Class Feature" id="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_LEARNED_EXPERTISE" level="3"/>
+			<grant type="Class Feature" id="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_PSYCHIC_SENSES" level="3"/>
+			<grant type="Class Feature" id="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_ABILITY_SCORE_IMPROVEMENT_METAPHYSICIAN" level="4"/>
+			<grant type="Class Feature" id="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_MEMORY_PALACE" level="7"/>
+			<grant type="Class Feature" id="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_PSYCHIC_RESONANCE" level="9"/>
+			<grant type="Class Feature" id="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_INTELLECT_BARRIER" level="10"/>
+			<grant type="Class Feature" id="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_RECOVERY_TRANCE" level="10"/>
+			<grant type="Class Feature" id="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_MEMORY_FORTRESS" level="13"/>
+			<grant type="Class Feature" id="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_GREATER_SUPERNATURAL_SCHOLAR" level="15"/>
+			<grant type="Class Feature" id="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_LIVING_LIBARY" level="20"/>
+		</rules>
+		<multiclass id="ID_JB_RA2_MULTICLASS_METAPHYSICIAN">
+			<prerequisite>Intelligence 13</prerequisite>
+			<requirements>[int:13]</requirements>
+			<setters>
+				<set name="multiclass proficiencies">—</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+			</rules>
+		</multiclass>
+	</element>
+	<element name="Spellcasting" type="Class Feature" source="Ravenloft Archetypes II: The Core Domains Adventurer's Guide" id="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_SPELLCASTING_METAPHYSICIAN">
+		<description>
+			<p>As a disciplined scholar of psychic phenomena and the power of the mind, you’ve developed the ability to focus your mental energies on casting spells.</p>
+			<h5>CANTRIPS</h5>
+			<p>At 1st level, you learn four cantrips. These cantrips are mage hand, mindspeak, and two other cantrips of your choice from the Metaphysician spell list. Whenever you cast the mage hand cantrip, the spectral hand is made of invisible force and cannot be seen. You learn additional cantrips of your choice from this list at higher levels, as shown in the Cantrips Known column of the Metaphysician table.</p>
+			<h5>SPELL SLOTS</h5>
+			<p>The Metaphysician table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest. You do not need to prepare your spells; you can cast any spell of a level which you have slots to cast. For example, if you know the 1st-level spell ego lash and have a 1st-level and a 2nd-level spell slot available, you can cast ego lash using either slot.</p>
+			<h5>SPELLS KNOWN OF 1ST LEVEL AND HIGHER</h5>
+			<p>You know two 1st-level spells of your choice from the metaphysician spell list.</p>
+			<p class="indent">You know two 1st-level spells of your choice from the metaphysician spell list. The Spells Known column of the Metaphysician table shows when you learn more metaphysician spells of 1st-level or higher. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.</p>
+			<p class="indent">Additionally, when you gain a level in this class, you can choose one of the metaphysician spells you know and replace it with another spell from the metaphysician spell list, which also must be of a level for which you have spell slots.</p>
+			<h5>SPELLCASTING ABILITY</h5>
+			<p>Intelligence is your spellcasting ability for your metaphysician spells, since the power of your magic comes from your disciplined mind and rigorous studies. You use your Intelligence whenever a metaphysician spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a metaphysician spell you cast and when making an attack roll with one.</p>
+			<center>
+				<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Intelligence modifier</p>
+				<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Intelligence modifier</p>
+			</center>
+			<h5>RITUAL CASTING</h5>
+			<p>You can cast a metaphysician spell as a ritual if that spell has the ritual tag.</p>
+			<h5>SPELLCASTING FOCUS</h5>
+			<p>You can use the crystal type of arcane focus as a spellcasting focus for your spells. If you have alchemist’s supplies on your person, you can also use any one item held in your hand from that set of supplies as a spellcasting focus for your metaphysician spells.</p>
+			<p class="indent">This item used as a spellcasting focus is too large or delicate for you to hold a weapon with the same hand. (This is assumed to be a beaker or decanter of some alchemical concoction, that you either imbibe or inhale fumes from, but can be described in another appropriate form with the DM’s permission).</p>
+			<h5>Spell Components</h5>
+			<p>Because they draw on their own psychic power rather than outside forces, metaphysicians do not require spoken words or gestures to catch their spells. Therefore, spells they cast do not have verbal or somatic components.</p>
+		</description>
+		<sheet display="false">
+			<description>You have the ability to cast spells.</description>
+		</sheet>
+		<spellcasting name="Metaphysician" ability="Intelligence" allowReplace="true">
+			<list>Metaphysician</list>
+		</spellcasting>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_RITUAL_CASTING" />
+			<grant type="Proficiency" id="ID_INTERNAL_PROFICIENCY_SPELLFOCUS_GROUP_ARCANE_FOCUS" />
+			<stat name="metaphysician:spellcasting:slots:1" value="2" level="1" />
+			<stat name="metaphysician:spellcasting:slots:1" value="1" level="2" />
+			<stat name="metaphysician:spellcasting:slots:1" value="1" level="3" />
+			<stat name="metaphysician:spellcasting:slots:2" value="2" level="3" />
+			<stat name="metaphysician:spellcasting:slots:2" value="1" level="4" />
+			<stat name="metaphysician:spellcasting:slots:3" value="2" level="5" />
+			<stat name="metaphysician:spellcasting:slots:3" value="1" level="6" />
+			<stat name="metaphysician:spellcasting:slots:4" value="1" level="7" />
+			<stat name="metaphysician:spellcasting:slots:4" value="1" level="8" />
+			<stat name="metaphysician:spellcasting:slots:4" value="1" level="9" />
+			<stat name="metaphysician:spellcasting:slots:5" value="1" level="9" />
+			<stat name="metaphysician:spellcasting:slots:5" value="1" level="10" />
+			<stat name="metaphysician:spellcasting:slots:5" value="1" level="18" />
+			<stat name="metaphysician:spellcasting:slots:6" value="1" level="11" />
+			<stat name="metaphysician:spellcasting:slots:6" value="1" level="19" />
+			<stat name="metaphysician:spellcasting:slots:7" value="1" level="13" />
+			<stat name="metaphysician:spellcasting:slots:7" value="1" level="20" />
+			<stat name="metaphysician:spellcasting:slots:8" value="1" level="15" />
+			<stat name="metaphysician:spellcasting:slots:9" value="1" level="17" />
+
+			<grant type="Spell" id="ID_JB_RA2_SPELL_MINDSPEAK" />
+			<grant type="Spell" id="ID_PHB_SPELL_MAGE_HAND" />
+			<select type="Spell" name="Cantrip (Metaphysician)" supports="$(spellcasting:list), 0" level="1" number="2" spellcasting="Metaphysician" />
+			<select type="Spell" name="Cantrip (Metaphysician)" supports="$(spellcasting:list), 0" level="4" number="1" spellcasting="Metaphysician" />
+			<select type="Spell" name="Cantrip (Metaphysician)" supports="$(spellcasting:list), 0" level="10" number="1" spellcasting="Metaphysician" />
+
+			<select type="Spell" name="Spell (Metaphysician)" supports="$(spellcasting:list),$(spellcasting:slots)" level="1" number="2" spellcasting="Metaphysician"/>
+			<select type="Spell" name="Spell (Metaphysician)" supports="$(spellcasting:list),$(spellcasting:slots)" level="3" spellcasting="Metaphysician"/>
+			<select type="Spell" name="Spell (Metaphysician)" supports="$(spellcasting:list),$(spellcasting:slots)" level="5" spellcasting="Metaphysician"/>
+			<select type="Spell" name="Spell (Metaphysician)" supports="$(spellcasting:list),$(spellcasting:slots)" level="8" spellcasting="Metaphysician"/>
+			<select type="Spell" name="Spell (Metaphysician)" supports="$(spellcasting:list),$(spellcasting:slots)" level="10" spellcasting="Metaphysician"/>
+			<select type="Spell" name="Spell (Metaphysician)" supports="$(spellcasting:list),$(spellcasting:slots)" level="12" spellcasting="Metaphysician"/>
+			<select type="Spell" name="Spell (Metaphysician)" supports="$(spellcasting:list),$(spellcasting:slots)" level="15" spellcasting="Metaphysician"/>
+			<select type="Spell" name="Spell (Metaphysician)" supports="$(spellcasting:list),$(spellcasting:slots)" level="17" spellcasting="Metaphysician"/>
+			<select type="Spell" name="Spell (Metaphysician)" supports="$(spellcasting:list),$(spellcasting:slots)" level="19" spellcasting="Metaphysician"/>
+		</rules>
+	</element>
+	<element name="Psychic Armor" type="Class Feature" source="Ravenloft Archetypes II: The Core Domains Adventurer's Guide" id="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_PSYCHIC_ARMOR">
+		<description>
+			<p>Beginning at 1st level, your psionic energies help protect your person from harm, compensating for your lack of heavy armor.</p>
+			<p class="indent">When you are wearing no armor and not wielding a shield, your AC equals 12 + your Dexterity or Intelligence modifier (whichever is higher). When you are wearing light armor, you receive a +1 bonus to AC.</p>
+		</description>
+		<sheet>
+			<description>When you are wearing no armor and not wielding a shield, your AC equals {{ac:psychic armor metaphysician}}. When you are wearing light armor, you receive a +1 bonus to AC.</description>
+		</sheet>
+		<rules>
+			<stat name="ac:misc" value="1" equipped="[armor:light]" />
+			<select type="Racial Trait" name="Psychic Armor (Metaphysician)" supports="ID_JB_RA2_RACIAL_TRAIT_METAPHYSICIAN_INTELLIGENCE||ID_JB_RA2_RACIAL_TRAIT_METAPHYSICIAN_DEXTERITY" number="1" level="1" />
+				<stat name="ac:calculation" value="ac:psychic armor metaphysician" bonus="calculation" equipped="[armor:none]" alt="Pyschic Armor (Metaphysician)" requirements="ID_JB_RA2_RACIAL_TRAIT_METAPHYSICIAN_INTELLIGENCE" />
+				<stat name="ac:calculation" value="ac:psychic armor metaphysician" bonus="calculation" equipped="[armor:none]" alt="Pyschic Armor (Metaphysician)" requirements="ID_JB_RA2_RACIAL_TRAIT_METAPHYSICIAN_DEXTERITY" />
+						
+		</rules>
+	</element>
+	<element name="Intelligence" type="Racial Trait" source="Ravenloft Archetypes II: The Core Domains Adventurer's Guide" id="ID_JB_RA2_RACIAL_TRAIT_METAPHYSICIAN_INTELLIGENCE">
+		<description>
+			<p>Intelligence measures mental acuity, accuracy of recall, and the ability to reason.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="ac:psychic armor metaphysician:base" value="12" />
+			<stat name="ac:psychic armor metaphysician:intelligence" value="intelligence:modifier" />
+			
+			<stat name="ac:psychic armor metaphysician" value="ac:psychic armor metaphysician:base" />
+			<stat name="ac:psychic armor metaphysician" value="ac:psychic armor metaphysician:intelligence" />
+
+			<stat name="ac:calculation" value="ac:psychic armor metaphysician" bonus="calculation" equipped="[armor:none]" alt="Pyschic Armor (Metaphysician)" />
+		</rules>
+	</element>
+	<element name="Dexterity" type="Racial Trait" source="Ravenloft Archetypes II: The Core Domains Adventurer's Guide" id="ID_JB_RA2_RACIAL_TRAIT_METAPHYSICIAN_DEXTERITY">
+		<description>
+			<p>Dexterity measures agility, reflexes, and balance.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="ac:psychic armor metaphysician:base" value="12" />
+			<stat name="ac:psychic armor metaphysician:dexterity" value="dexterity:modifier" />
+			
+			<stat name="ac:psychic armor metaphysician" value="ac:psychic armor metaphysician:base" />
+			<stat name="ac:psychic armor metaphysician" value="ac:psychic armor metaphysician:dexterity" />
+
+			<stat name="ac:calculation" value="ac:psychic armor metaphysician" bonus="calculation" equipped="[armor:none]" alt="Pyschic Armor (Metaphysician)" />
+		</rules>
+	</element>
+	<element name="Supernatural Scholar" type="Class Feature" source="Ravenloft Archetypes II: The Core Domains Adventurer's Guide" id="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_SUPERNATURAL_SCHOLAR">
+		<description>
+			<p>At 1st level, you are a leading scholar of linguistics among other fields, and you are aided in your studies by your psychic abilities.</p>
+			<p class="indent">You learn 1 additional language of your choice, and you also know the comprehend languages spell. This spell does not count against the number of spells known. Whenever you cast comprehend languages as a ritual, you can choose to do so in 1 minute instead of the hour a ritual normally requires. However, when you do so, the spell’s duration is reduced to 10 minutes.</p>
+			<p class="indent">At 2nd level, 4th level, and 8th level, you may choose to learn one additional language or gain proficiency with one additional set of artisan tools.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_COMPREHEND_LANGUAGES" />
+			<select type="Language" name="Language (Supernatural Scholar)" number="1" supports="Standard||Exotic"/>
+			<select type="Proficiency" name="Supernatural Scholar (Metaphysician)" level="2" supports="Skill||Tool" number="1" />
+			<select type="Proficiency" name="Supernatural Scholar (Metaphysician)" level="4" supports="Skill||Tool" number="1" />
+			<select type="Proficiency" name="Supernatural Scholar (Metaphysician)" level="8" supports="Skill||Tool" number="1" />
+
+		</rules>
+	</element>
+	<element name="Metaphysical Archetype" type="Class Feature" source="Ravenloft Archetypes II: The Core Domains Adventurer's Guide" id="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_METAPHYSICAL_ARCHETYPE" >
+		<description>
+			<p>At 2nd level, you choose a Metaphysical Archetype, a focus for growth in your burgeoning vocation as a metaphysician, as detailed at the end of this class description.</p>
+			<p class="indent">Three metaphysical archetypes are described in this document: the Eradicator, the Mentalist, and the Savant. </p>
+			<p class="indent">Your choice grants you features when you choose it at 2nd level, and again at 6th, 14th, and 18th level.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype" name="Metaphysical Archetype" supports="Metaphysical Archetype" level="2"/>
+		</rules>
+	</element>
+	<element name="Learned Expertise" type="Class Feature" source="Ravenloft Archetypes II: The Core Domains Adventurer's Guide" id="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_LEARNED_EXPERTISE">
+		<description>
+			<p>At 3rd level, choose up to two of the following skills with which you are proficient: Arcana, History, Insight, Investigation, Medicine, Nature, Perception, Religion, or Survival.</p>
+			<p class="indent">Your proficiency bonus is doubled for any ability check you make that uses either of the chosen skills. </p>
+		</description>
+		<sheet display="false">
+			<description>Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</description>
+		</sheet>
+		<rules>
+			<select type="Class Feature" name="Learned Expertise (Metaphysician)" level="3" number="2" supports="ID_INTERNAL_SUPPORT_LEARNED_EXPERTISE"/>
+		</rules>
+	</element>
+	<element name="Psychic Senses" type="Class Feature" source="Ravenloft Archetypes II: The Core Domains Adventurer's Guide" id="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_PSYCHIC_SENSES">
+		<description>
+			<p>Beginning at 3rd level, your mental powers and disciplined mind give you a preternatural eye for detail. If your passive Perception, passive Insight, or passive Investigation score includes your proficiency bonus, you double your proficiency bonus when including it in those passive scores.</p>
+			<p class="indent">In addition, you learn the detect thoughts spell, and it does not count against your number of spells known. whenever you are using it to detect a creature or sense its thoughts, you do not need to see that creature to affect it with a metaphysician spell that normally can only target creatures you can see, as long as the creature is within range of that spell.</p>
+			<p class="indent">Finally, if you have directly communicated with a creature using a metaphysician spell since the beginning of your last turn, that creature does not need to be able to hear you in order for you to affect it with a metaphysician spell that normally can only target creatures who can hear you, as long as the creature is within range of that spell.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_DETECT_THOUGHTS"/>
+			<stat type="perception:passive" value="proficiency" bonus="double" requirements="ID_PROFICIENCY_SKILL_PERCEPTION"/>
+			<stat type="insight:passive" value="proficiency" bonus="double" requirements="ID_PROFICIENCY_SKILL_INSIGHT"/>
+			<stat type="investigation:passive" value="proficiency" bonus="double" requirements="ID_PROFICIENCY_SKILL_INVESTIGATION"/>
+		</rules>
+	</element>
+	<element name="Ability Score Improvement" type="Class Feature" source="Ravenloft Archetypes II: The Core Domains Adventurer's Guide" id="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_ABILITY_SCORE_IMPROVEMENT_METAPHYSICIAN">
+		<compendium display="false" />
+		<description>
+			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (Metaphysician 4)" supports="Improvement Option,Metaphysician,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Metaphysician 8)" supports="Improvement Option,Metaphysician,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Metaphysician 12)" supports="Improvement Option,Metaphysician,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Metaphysician 16)" supports="Improvement Option,Metaphysician,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Metaphysician 19)" supports="Improvement Option,Metaphysician,19" level="19" />
+		</rules>
+	</element>
+	<element name="Memory Palace" type="Class Feature" source="Ravenloft Archetypes II: The Core Domains Adventurer's Guide" id="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_MEMORY_PALACE">
+		<description>
+			<p>At 7th level, you have organized your mind using your spatial memory, creating an imaginary palace in your mind where you associate pieces of your vast knowledge with the palace’s features, allowing you to call up learned information on demand, giving you the following benefits:</p>
+				<li>You can accurately recall anything you have seen or heard within the past month. If you gain this feature again from another feature or feat, you can accurately recall anything you have seen or heard within the past year.</li>
+				<li>Whenever you fail a Wisdom or Intelligence check that lets you add your proficiency bonus, you can re-roll that roll and use the higher of the two rolls. (2/short rest).</li>
+		</description>
+	</element>
+	<element name="Psychic Resonance" type="Class Feature" source="Ravenloft Archetypes II: The Core Domains Adventurer's Guide" id="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_PSYCHIC_RESONANCE">
+		<description>
+			<p>At 9th level, whenever you cast a spell that inflicts psychic damage, you can add your Intelligence modifier to one damage roll of that spell.</p>
+		</description>
+		<sheet>
+			<description>whenever you cast a spell that inflicts psychic damage, you can add {{value="intelligence:modifier"}} extra damage.</description>
+		</sheet>
+	</element>
+	<element name="Intellect Barrier" type="Class Feature" source="Ravenloft Archetypes II: The Core Domains Adventurer's Guide" id="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_INTELLECT_BARRIER">
+		<description>
+			<p>At 10th level, your supernatural willpower and unfailing vigilance make your mind near impregnable to assault.</p>
+			<p class="indent">You gain proficiency with Charisma saving throws, and whenever you apply your proficiency bonus to any ability check or saving throw you make to resist any attempt to discern information about you, your plans, your location, or your thoughts, you double your proficiency bonus for that roll.</p>
+			<p class="indent">This includes effects that would read your thoughts or compel you to speak the truth.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" />
+		</rules>
+	</element>
+	<element name="Recovery Trance " type="Class Feature" source="Ravenloft Archetypes II: The Core Domains Adventurer's Guide" id="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_RECOVERY_TRANCE">
+		<description>
+			<p>You can use a brief meditation to cause your body to recover more efficiently. Whenever you spend two or more Hit Dice at the end of a short rest, you can also choose to do one of the following:</p>
+				<li>Regain additional hit points equal to the total number of Hit Dice you spend.</li>
+				<li>Gain resistance to psychic damage for one hour.</li>
+				<li>Recover one spell slot of 3rd-level or lower. The level of the spell slot recovered cannot be greater than the number of Hit Dice you spend.</li>
+		</description>
+		<sheet>
+			<description>
+			<p>Whenever you spend two or more Hit Dice at the end of a short rest, you can also choose to do one of the following:</p>
+				<li>Regain additional hit points equal to the total number of Hit Dice you spend.</li>
+				<li>Gain resistance to psychic damage for one hour.</li>
+				<li>Recover one spell slot of 3rd-level or lower. The level of the spell slot recovered cannot be greater than the number of Hit Dice you spend.</li>
+			</description>
+		</sheet>
+	</element>
+	<element name="Memory Fortress" type="Class Feature" source="Ravenloft Archetypes II: The Core Domains Adventurer's Guide" id="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_MEMORY_FORTRESS">
+		<description>
+			<p>At 13th level, the intellectual rigor and focused willpower you apply to your memory palace are truly superhuman. You gain the following benefits:</p>
+				<li>Whenever you make an Intelligence check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10.</li>
+				<li>When you make a roll that gains the bonus from your Intellect Barrier feature, you also gain advantage on that roll. If you succeed on the roll, you choose one creature whose attempt to discern information about you prompted that roll and force them to make an Intelligence saving throw against your Metaphysician spell DC. The creature takes psychic damage equal to your Metaphysician level on a failed save, or half as much damage on a successful one.</li>
+		</description>
+		<sheet display="false" />
+	</element>
+	<element name="Greater Supernatural Scholar" type="Class Feature" source="Ravenloft Archetypes II: The Core Domains Adventurer's Guide" id="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_GREATER_SUPERNATURAL_SCHOLAR">
+		<description>
+			<p>Starting at 15th level, your psychic abilities and mastery of linguistic principles allow you to understand all spoken and written languages.</p>
+			<p class="indent">Moreover, any creature that can understand a language can understand what you say, and if you use your Recovery Trance feature to regain a spell slot when you spend Hit Dice, that spell slot can be 4th level or lower.</p>
+		</description>
+		<sheet>
+			<description>Your psychic abilities and mastery of linguistic principles allow you to understand all spoken and written languages and if you use your Recovery Trance feature to regain a spell slot when you spend Hit Dice, that spell slot can be 4th level or lower.</description>
+		</sheet>
+	</element>
+	<element name="Living Library" type="Class Feature" source="Ravenloft Archetypes II: The Core Domains Adventurer's Guide" id="ID_JB_RA2_CLASS_FEATURE_METAPHYSICIAN_LIVING_LIBARY">
+		<description>
+			<p>At 20th level, your mind is a repository of knowledge comparable to entire academic institutions rather than mere individuals, unifying your intellect with your body and soul and allowing you to unlock the greater psychic potential within your physical form. This grants you a number of benefits:</p>
+				<li>You can always accurately recall anything you have seen or heard since you became 20th level</li>
+				<li>You can add your proficiency bonus to any Intelligence check you make that doesn’t already include your proficiency bonus.</li>
+				<li>When you fail any saving throw or any Intelligence, Wisdom, or Charisma check, you can treat the d20 roll as a 20. Once you use this feature, you can’t use it again until you finish a short or long rest. (1/long rest).</li>
+		</description>
+		<sheet>
+			<description>When you fail any saving throw or any Intelligence, Wisdom, or Charisma check, you can treat the d20 roll as a 20. Once you use this feature, you can’t use it again until you finish a short or long rest. (1/long rest).</description>
+		</sheet>
+		<rules>
+			<stat name="arcana:misc" value="proficiency" requirements="!ID_PROFICIENCY_SKILL_ARCANA"/>
+			<stat name="history:misc" value="proficiency" requirements="!ID_PROFICIENCY_SKILL_HISTORY"/>
+			<stat name="investigation:misc" value="proficiency" requirements="!ID_PROFICIENCY_SKILL_INVESTIGATION"/>
+			<stat name="nature:misc" value="proficiency" requirements="!ID_PROFICIENCY_SKILL_NATURE"/>
+			<stat name="religion:misc" value="proficiency" requirements="!ID_PROFICIENCY_SKILL_RELIGION"/>
+		</rules>
+	</element>
+
+	<!--Eradicator-->
+	<element name="Eradicator" type="Archetype" source="Ravenloft Archetypes II: The Core Domains Adventurer's Guide"  id="ID_JB_RA2_ARCHETYPE_ERADICATOR">
+		<supports>Metaphysical Archetype</supports>
+		<description>
+			<p>Deep studies of the realm you call home have revealed a hidden truth: the world is sick. How a plague takes hold of the body, a darkness has infested the land. It takes many forms: undead. lycanthropes, hags, fiends, unclean spirits, and the like. You do not view these horrors superstitiously, but clinically. They are a disease that must be cured.</p>
+			<p class="indent">You have become an expert on these shadowy threats. Like a naturalist cataloging plant and animal specimens, you use a variety of techniques to discern the true nature of the infection. From stealthy observation to researching poorly understood ancient writings, capture to vivisection, you use any tool you can to extract every secret. How does mortal flesh sustain a zombie’s unlife? Why is silver better than steel against a werewolf? How does a mummy infect its victims with rot? You need these answers to turn the tables on these unnatural predators and eradicate them for the good of all mortals.</p>
+			<p class="indent">Your psychic powers are a means to this end, and you fight fire with fire. You learn how to influence another’s mind, the better to free victims charmed by the gaze of a vampire. Mastering disguise yourself helps you to pierce a doppelganger's deceit. When a poltergeist hurls objects around a room, you can resist it with your telekinetic strength. You may be driven by a personal grudge or a sense of calling, or even mere curiosity, but you don’t let your feelings cloud your rational mind. Of all metaphysicians, eradicators are the most likely to have deep religious beliefs. Seeing the way divine power can be channeled to defeat undead, fiends, and other formidable monsters can leave a lasting impression. Whatever you believe, you tend to be just as rational about them as you are about everything else. Eradicators always find a way to reconcile faith and science, and they have a natural suspicion of zealotry. In many ways, your drives to understand divinity and the forces of darkness are two sides of the same coin.</p>
+			<div element="ID_JB_RA2_ARCHETYPE_FEATURE_METAPHYSICIAN_ERADICATOR_EXORCISM_SPELLS" />
+			<div element="ID_JB_RA2_ARCHETYPE_FEATURE_METAPHYSICIAN_ERADICATOR_MONSTER_HUNTER"/>
+			<div element="ID_JB_RA2_ARCHETYPE_FEATURE_METAPHYSICIAN_ERADICATOR_SPECIES_FOCUS"/>
+			<div element="ID_JB_RA2_ARCHETYPE_FEATURE_METAPHYSICIAN_ERADICATOR_ABSOLUTE_EFFORT"/>
+			<div element="ID_JB_RA2_ARCHETYPE_FEATURE_METAPHYSICIAN_ERADICATOR_PSYCHIC_TURNING"/>
+			<div element="ID_JB_RA2_ARCHETYPE_FEATURE_METAPHYSICIAN_ERADICATOR_SERENITY_OF_SPIRIT"/>
+			<div element="ID_JB_RA2_ARCHETYPE_FEATURE_METAPHYSICIAN_ERADICATOR_SERENITY_OF_SPIRIT" />
+			<div element="ID_JB_RA2_ARCHETYPE_FEATURE_METAPHYSICIAN_ERADICATOR_HUNTING_THE_HUNTERS"/>
+
+		</description>
+		<sheet display="false">
+			<description>Bards of the College of Lore know something about most things, collecting bits of knowledge from sources as diverse as scholarly tomes and peasant tales.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_JB_RA2_ARCHETYPE_FEATURE_METAPHYSICIAN_ERADICATOR_EXORCISM_SPELLS" level="2"/>
+			<grant type="Archetype Feature" id="ID_JB_RA2_ARCHETYPE_FEATURE_METAPHYSICIAN_ERADICATOR_MONSTER_HUNTER" level="2"/>
+			<grant type="Archetype Feature" id="ID_JB_RA2_ARCHETYPE_FEATURE_METAPHYSICIAN_ERADICATOR_SPECIES_FOCUS" level="2"/>
+			<grant type="Archetype Feature" id="ID_JB_RA2_ARCHETYPE_FEATURE_METAPHYSICIAN_ERADICATOR_ABSOLUTE_EFFORT" level="6"/>
+			<grant type="Archetype Feature" id="ID_JB_RA2_ARCHETYPE_FEATURE_METAPHYSICIAN_ERADICATOR_PSYCHIC_TURNING" level="6"/>
+			<grant type="Archetype Feature" id="ID_JB_RA2_ARCHETYPE_FEATURE_METAPHYSICIAN_ERADICATOR_SERENITY_OF_SPIRIT" level="14" />
+			<grant type="Archetype Feature" id="ID_JB_RA2_ARCHETYPE_FEATURE_METAPHYSICIAN_ERADICATOR_HUNTING_THE_HUNTERS" level="18" />
+
+		</rules>
+	</element>
+	<element name="Exorcism Spells" type="Archetype Feature" source="Ravenloft Archetypes II: The Core Domains Adventurer's Guide" id="ID_JB_RA2_ARCHETYPE_FEATURE_METAPHYSICIAN_ERADICATOR_EXORCISM_SPELLS">
+		<description>
+			<p>When you choose this archetype at 2nd level, you learn the detect evil and good, protection from evil and good, and predictive focus* spells. </p>
+			<p class="indent">At 4th level, you learn the gentle repose and major telekinetic weapon* spells.</p>
+			<p class="indent">At 6th level, you learn the intellect redoubt* spell.</p>
+			<p class="indent">At 7th level, you learn the locate creature and staggering smite spells.</p>
+			<p class="indent">At 9th level, you learn the dispel evil and good spell.</p>
+			<p class="indent">At 17th level, you learn the imprisonment spell.</p>
+			<p class="indent">Spells learned from this feature do not count against your normal number of metaphysician spells or cantrips known.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_DETECT_EVIL_AND_GOOD" level="2" />
+			<grant type="Spell" id="ID_PHB_SPELL_PROTECTION_FROM_EVIL_AND_GOOD" level="2" />
+			<grant type="Spell" id="ID_RA2_SPELL_PREDICTIVE_FOCUS" level="2" />
+			<grant type="Spell" id="ID_PHB_SPELL_GENTLE_REPOSE" level="4" />
+			<grant type="Spell" id="ID_RA2_SPELL_MAJOR_TELEKINETIC_WEAPON" level="4" />
+			<grant type="Spell" id="ID_RA2_SPELL_INTELLECT_REDOUBT" level="6" />
+			<grant type="Spell" id="ID_PHB_SPELL_LOCATE_CREATURE" level="7" />
+			<grant type="Spell" id="ID_PHB_SPELL_STAGGERING_SMITE" level="7" />
+			<grant type="Spell" id="ID_PHB_SPELL_DISPEL_EVIL_AND_GOOD" level="9" />
+			<grant type="Spell" id="ID_PHB_SPELL_IMPRISONMENT" level="17" />
+		</rules>
+	</element>
+	<element name="Monster Hunter" type="Archetype Feature" source="Ravenloft Archetypes II: The Core Domains Adventurer's Guide" id="ID_JB_RA2_ARCHETYPE_FEATURE_METAPHYSICIAN_ERADICATOR_MONSTER_HUNTER">
+		<description>
+			<p>At 2nd level, you can use a holy symbol as a spellcasting focus for your metaphysician spells, and you have advantage on Intelligence and Wisdom checks to discern information about any creature that is an aberration, construct, elemental, fey, fiend, or undead, as well as any other creature that you know to be a shapechanger. </p>
+			<p class="indent">You also learn the shillelagh cantrip, and when you cast it, you can choose for a wooden weapon you cast it on to sharpen, becoming a piercing weapon for the duration of the spell (this allows it to be used as a wooden stake for the purpose of defeating vampires and similar creatures). </p>
+		</description>
+		<sheet>
+			<description>You have advantage on Intelligence and Wisdom checks to discern information about any creature that is an aberration, construct, elemental, fey, fiend, or undead, as well as any other creature that you know to be a shapechanger.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_SHILLELAGH"/>
+		</rules>
+	</element>
+	<element name="Species Focus" type="Archetype Feature" source="Ravenloft Archetypes II: The Core Domains Adventurer's Guide" id="ID_JB_RA2_ARCHETYPE_FEATURE_METAPHYSICIAN_ERADICATOR_SPECIES_FOCUS">
+		<description>
+			<p>Starting at 2nd level, you choose a type of monster you know more about than any other.</p>
+			<p class="indent">You can choose one species focus from the following: aberrations, constructs, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. Alternatively, you can choose shapechangers of any type as your species focus. Work with your DM to determine an appropriate type of monster for the campaign.</p>
+			<p class="indent">Once during your turn, when you inflict damage with a metaphysician spell or with a magical weapon on a creature that is your species focus or the subject of your predictive focus spell, you can choose one such creature to take an additional 1d8 psychic damage. </p>
+			<p class="indent">At 6th level, any creature that takes this damage cannot benefit from advantage on any Intelligence or Wisdom saving throw until the end of your next turn. </p>
+		</description>
+		<sheet>
+			<description>Once during your turn, when you inflict damage with a metaphysician spell or with a magical weapon on a creature that is your species focus or the subject of your predictive focus spell, you can choose one such creature to take an additional 1d8 psychic damage.</description>
+		</sheet>
+		<rules>
+			<select type="Class Feature" name="Species Focus" supports="Species Focus" level="2" />
+		</rules>
+	</element>
+
+		<!--Species Focus choices-->
+	<element name="Aberrations" type="Class Feature" source="Player’s Handbook" id="ID_JB_RA2_ARCHETYPE_FEATURE_METAPHYSICIAN_ERADICATOR_SPECIES_FOCUS_ABERRATIONS">
+		<supports>Favored Enemy,Monster Type,Species Focus</supports>
+		<description>
+			<p>Aberrations are utterly alien beings. Many of them have innate magical abilities drawn from the creature’s alien mind rather than the mystical forces of the world. The quintessential aberrations are aboleths, beholders, mind fiayers, and slaadi.</p>
+		</description>
+	</element>
+	<element name="Constructs" type="Class Feature" source="Player’s Handbook" id="ID_JB_RA2_ARCHETYPE_FEATURE_METAPHYSICIAN_ERADICATOR_SPECIES_FOCUS_CONSTRUCTS">
+		<supports>Favored Enemy,Monster Type,Species Focus</supports>
+		<description>
+			<p>Constructs are made, not born. Some are programmed by their creators to follow a simple set of instructions, while others are imbued with sentience and capable of independent thought. Golems are the iconic constructs. Many creatures native to the outer plane of Mechanus, such as modrons, are constructs shaped from the raw material of the plane by the will of more powerful creatures.</p>
+		</description>		
+	</element>
+	<element name="Elementals" type="Class Feature" source="Player’s Handbook" id="ID_JB_RA2_ARCHETYPE_FEATURE_METAPHYSICIAN_ERADICATOR_SPECIES_FOCUS_ELEMENTALS">
+		<supports>Favored Enemy,Monster Type,Species Focus</supports>
+		<description>
+			<p>Elementals are creatures native to the elemental planes. Some creatures of this type are little more than animate masses of their respective elements, including the creatures simply called elementals. Others have biological forms infused with elemental energy. The races of genies, including djinn and efreet, form the most important civilizations on the elemental planes. Other elemental creatures include azers, invisible stalkers, and water weirds.</p>
+		</description>		
+	</element>
+	<element name="Fey" type="Class Feature" source="Player’s Handbook" id="ID_JB_RA2_ARCHETYPE_FEATURE_METAPHYSICIAN_ERADICATOR_SPECIES_FOCUS_FEY">
+		<supports>Favored Enemy,Monster Type,Species Focus</supports>
+		<description>
+			<p>Fey are magical creatures closely tied to the forces of nature. They dwell in twilight groves and misty forests. In some worlds, they are closely tied to the Feywild, also called the Plane of Faerie. Some are also found in the Outer Planes, particularly the planes of Arborea and the Beastlands. Fey include dryads, pixies, and satyrs.</p>
+		</description>		
+	</element>
+	<element name="Fiends" type="Class Feature" source="Player’s Handbook" id="ID_JB_RA2_ARCHETYPE_FEATURE_METAPHYSICIAN_ERADICATOR_SPECIES_FOCUS_FIENDS">
+		<supports>Favored Enemy,Monster Type,Species Focus</supports>
+		<description>
+			<p>Fiends are creatures of wickedness that are native to the Lower Planes. A few are the servants of deities, but many more labor under the leadership of archdevils and demon princes. Evil priests and mages sometimes summon fiends to the material world to do their bidding. If an evil celestial is a rarity, a good fiend is almost inconceivable. Fiends include demons, devils, hell hounds, rakshasas, and yugoloths.</p>
+		</description>		
+	</element>
+	<element name="Giants" type="Class Feature" source="Player’s Handbook" id="ID_JB_RA2_ARCHETYPE_FEATURE_METAPHYSICIAN_ERADICATOR_SPECIES_FOCUS_GIANTS">
+		<supports>Favored Enemy,Monster Type,Species Focus</supports>
+		<description>
+			<p>Giants tower over humans and their kind. They are humanlike in shape, though some have multiple heads (ettins) or deformities (fomorians). The six varieties of true giant are hill giants, stone giants, frost giants, fire giants, cloud giants, and storm giants. Besides these, creatures such as ogres and trolls are giants.</p>
+		</description>		
+	</element>
+	<element name="Monstrosities" type="Class Feature" source="Player’s Handbook" id="ID_JB_RA2_ARCHETYPE_FEATURE_METAPHYSICIAN_ERADICATOR_SPECIES_FOCUS_MONSTROSITIES">
+		<supports>Favored Enemy,Monster Type,Species Focus</supports>
+		<description>
+			<p>Monstrosities are monsters in the strictest sensefrightening creatures that are not ordinary, not truly natural, and almost never benign. Some are the results of magical experimentation gone awry (such as owl bears), and others, are the product-of terrible curses (including minotaurs and yuan-ti). They defy categorization, and in some sense serve as a catch-all category for creatures that don’t fit into any other type.</p>
+		</description>		
+	</element>
+	<element name="Oozes" type="Class Feature" source="Player’s Handbook" id="ID_JB_RA2_ARCHETYPE_FEATURE_METAPHYSICIAN_ERADICATOR_SPECIES_FOCUS_OOZES">
+		<supports>Favored Enemy,Monster Type,Species Focus</supports>
+		<description>
+			<p>Oozes are gelatinous creatures that rarely have a fixed shape. They are mostly subterranean, dwelling in caves and dungeons and feeding on refuse, carrion, or creatures unlucky enough to get in their way. Black puddings and gelatinous cubes are among the most recognizable oozes.</p>
+		</description>		
+	</element>
+	<element name="Plants" type="Class Feature" source="Player’s Handbook" id="ID_JB_RA2_ARCHETYPE_FEATURE_METAPHYSICIAN_ERADICATOR_SPECIES_FOCUS_PLANTS">
+		<supports>Favored Enemy,Monster Type,Species Focus</supports>
+		<description>
+			<p>Plants in this context are vegetable creatures, not ordinary flora. Most of them are ambulatory, and some are carnivorous. The quintessential plants are the shambling mound and the treant. Fungal creatures such as the gas spore and the myconid also fall into this category.</p>
+		</description>		
+	</element>
+	<element name="Undead" type="Class Feature" source="Player’s Handbook" id="ID_JB_RA2_ARCHETYPE_FEATURE_METAPHYSICIAN_ERADICATOR_SPECIES_FOCUS_UNDEAD">
+		<supports>Favored Enemy,Monster Type,Species Focus</supports>
+		<description>
+			<p>Undead are once-living creatures brought to a horrifying state of undeath through the practice of necromantic magic or some unholy curse. Undead include walking corpses, such as vampires and zombies, as well as bodiless spirits, such as ghosts and specters.</p>
+		</description>		
+	</element>
+
+	<element name="Absolute Effort" type="Archetype Feature" source="Ravenloft Archetypes II: The Core Domains Adventurer's Guide" id="ID_JB_RA2_ARCHETYPE_FEATURE_METAPHYSICIAN_ERADICATOR_ABSOLUTE_EFFORT">
+		<description>
+			<p>At 6th level, you can marshal your own life force to empower your psychic vigilance. When you cast the detect evil and good or the intellect barrier* spells, you may choose to lose 1 hit die to change the casting time to 1 bonus action for this casting. </p>
+		</description>
+		<sheet>
+			<description>When you cast the detect evil and good or the intellect barrier* spells, you may choose to lose 1 hit die to change the casting time to 1 bonus action for this casting.</description>
+		</sheet>
+	</element>
+	<element name="Psychic Turning" type="Archetype Feature" source="Ravenloft Archetypes II: The Core Domains Adventurer's Guide" id="ID_JB_RA2_ARCHETYPE_FEATURE_METAPHYSICIAN_ERADICATOR_PSYCHIC_TURNING">
+		<description>
+			<p>Starting at 6th level, you can attempt to repel dark forces with the strength of your convictions.</p>
+			<p class="indent">As an action, you present a spellcasting focus you can use for your metaphysician spells (such as a holy symbol), and each creature within 30 feet of you that is undead or your species focus must make an Intelligence saving throw against your Metaphysician spell DC.</p>
+			<p class="indent">On a failed save, such a creature is repelled for a number of rounds equal to your Intelligence modifier (minimum of 1), though the effect ends if the creature takes damage. </p>
+			<p class="indent">A repelled creature must spend its turns trying to move as far away from you as it possibly can, and it can’t willingly move to a space within 30 feet of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there’s nowhere to move, the creature can use the Dodge action. Once you use this feature once, you cannot use it again until you finish a short or long rest. (1/long rest). </p>
+		</description>
+		<sheet alt="Psychic Turning" action="Action">
+			<description>Each creature within 30 feet of you that is undead or your species focus must make an Intelligence saving throw against your Metaphysician spell DC. On a failed save, such a creature is repelled for a number of rounds equal to your Intelligence modifier (minimum of 1), though the effect ends if the creature takes damage.
+				A repelled creature must spend its turns trying to move as far away from you as it possibly can, and it can’t willingly move to a space within 30 feet of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there’s nowhere to move, the creature can use the Dodge action. Once you use this feature once, you cannot use it again until you finish a short or long rest. (1/long rest).</description>
+		</sheet>
+	</element>
+	<element name="Serenity of Spirit" type="Archetype Feature" source="Ravenloft Archetypes II: The Core Domains Adventurer's Guide" id="ID_JB_RA2_ARCHETYPE_FEATURE_METAPHYSICIAN_ERADICATOR_SERENITY_OF_SPIRIT">
+		<description>
+			<p>At 14th level, you are an island of calm resolution in a sea of fear and aggression. You cannot be charmed or frightened, and you can cast the calm emotions spell at will. </p>
+		</description>
+		<sheet>
+			<description>You cannot be charmed or frightened, and you can cast the calm emotions spell at will.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_CALM_EMOTIONS" />
+		</rules>
+	</element>
+	<element name="Hunting the Hunters" type="Archetype Feature" source="Ravenloft Archetypes II: The Core Domains Adventurer's Guide" id="ID_JB_RA2_ARCHETYPE_FEATURE_METAPHYSICIAN_ERADICATOR_HUNTING_THE_HUNTERS">
+		<description>
+			<p>At 18th level, you are immune to psychic damage, and hostile creatures you choose who take psychic damage during your turn must roll Intelligence saves against your Metaphysician spell DC or become frightened of you until the end of your next turn.</p>
+		</description>
+		<sheet>
+			<description>At 18th level, you are immune to psychic damage, and hostile creatures you choose who take psychic damage during your turn must roll Intelligence saves against your Metaphysician spell DC or become frightened of you until the end of your next turn.</description>
+		</sheet>
+	</element>
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Expertise -->
+	<element name="Skill Expertise (Arcana)" type="Class Feature" source="Player’s Handbook" id="ID_EXPERTISE_SKILL_ARCANA">
+		<supports>Learned Expertise, Skill, ID_INTERNAL_SUPPORT_LEARNED_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_ARCANA</requirements>
+		<description>
+			<p>Your proficiency bonus is doubled for any Arcana check you make.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_ARCANA" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="arcana:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Skill Expertise (History)" type="Class Feature" source="Player’s Handbook" id="ID_EXPERTISE_SKILL_HISTORY">
+		<supports>Learned Expertise, Skill, ID_INTERNAL_SUPPORT_LEARNED_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_HISTORY</requirements>
+		<description>
+			<p>Your proficiency bonus is doubled for any History check you make.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_HISTORY" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="history:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Skill Expertise (Insight)" type="Class Feature" source="Player’s Handbook" id="ID_EXPERTISE_SKILL_INSIGHT">
+		<supports>Learned Expertise, Skill, ID_INTERNAL_SUPPORT_LEARNED_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_INSIGHT</requirements>
+		<description>
+			<p>Your proficiency bonus is doubled for any Insight check you make.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_INSIGHT" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="insight:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Skill Expertise (Investigation)" type="Class Feature" source="Player’s Handbook" id="ID_EXPERTISE_SKILL_INVESTIGATION">
+		<supports>Learned Expertise, Skill, ID_INTERNAL_SUPPORT_LEARNED_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_INVESTIGATION</requirements>
+		<description>
+			<p>Your proficiency bonus is doubled for any Investigation check you make.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_INVESTIGATION" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="investigation:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Skill Expertise (Medicine)" type="Class Feature" source="Player’s Handbook" id="ID_EXPERTISE_SKILL_MEDICINE">
+		<supports>Learned Expertise, Skill, ID_INTERNAL_SUPPORT_LEARNED_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_MEDICINE</requirements>
+		<description>
+			<p>Your proficiency bonus is doubled for any Medicine check you make.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_MEDICINE" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="medicine:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Skill Expertise (Nature)" type="Class Feature" source="Player’s Handbook" id="ID_EXPERTISE_SKILL_NATURE">
+		<supports>Learned Expertise, Skill, ID_INTERNAL_SUPPORT_LEARNED_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_NATURE</requirements>
+		<description>
+			<p>Your proficiency bonus is doubled for any Nature check you make.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_NATURE" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="nature:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Skill Expertise (Perception)" type="Class Feature" source="Player’s Handbook" id="ID_EXPERTISE_SKILL_PERCEPTION">
+		<supports>Learned Expertise, Skill, ID_INTERNAL_SUPPORT_LEARNED_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_PERCEPTION</requirements>
+		<description>
+			<p>Your proficiency bonus is doubled for any Perception check you make.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_PERCEPTION" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="perception:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Skill Expertise (Religion)" type="Class Feature" source="Player’s Handbook" id="ID_EXPERTISE_SKILL_RELIGION">
+		<supports>Learned Expertise, Skill, ID_INTERNAL_SUPPORT_LEARNED_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_RELIGION</requirements>
+		<description>
+			<p>Your proficiency bonus is doubled for any Religion check you make.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_RELIGION" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="religion:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+	<element name="Skill Expertise (Survival)" type="Class Feature" source="Player’s Handbook" id="ID_EXPERTISE_SKILL_SURVIVAL">
+		<supports>Learned Expertise, Skill, ID_INTERNAL_SUPPORT_LEARNED_EXPERTISE</supports>
+		<requirements>ID_PROFICIENCY_SKILL_SURVIVAL</requirements>
+		<description>
+			<p>Your proficiency bonus is doubled for any Survival check you make.</p>
+			<div class="reference">
+				<div element="ID_PROFICIENCY_SKILL_SURVIVAL" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="survival:proficiency" value="proficiency" bonus="double" />
+		</rules>
+	</element>
+
+</elements>
